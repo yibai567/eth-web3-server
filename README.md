@@ -26,7 +26,7 @@ Python版本 <= 2.7 (3.x.x不要安装3以上的版本) 此环境是以太坊web
 
 ## 启动区块链
 ```
-geth --identity "test" --datadir data0 --networkid 899 --port 30303 --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "web3" --rpccorsdomain "*" console 2>> data.log
+geth --identity "test" --datadir data0 --networkid 899 --port 30303 --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "db,eth,net,web3,miner,personal,txpool,admin,debug" --rpccorsdomain "*" console 2>> data.log
 
 # 参数说明
 --datadir 使用那个目录作为数据目录
