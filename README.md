@@ -106,7 +106,7 @@ Body:
 ```
 // 获取账号列表
 getAccounts
-url: http://127.0.0.1:3000/createAccount
+url: http://127.0.0.1:3000/getAccounts
 method: GET
 Query:
 ```

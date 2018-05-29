@@ -1,6 +1,6 @@
 const express = require('express')
 const rawBodyParser = require('raw-body-parser')
-const config = require('./config')
+const config = require('./node_config')
 const Web3 = require('web3')
 
 const app = express()
